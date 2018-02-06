@@ -1,0 +1,18 @@
+Step 5: input: votesReiceived=10 votesToWin=50 opponentVotes=60 
+        The opponent is supposed to win because its vote is more than the votestowin
+        but the program assumes I win insted.
+
+        input: votesReiceived=5  votesToWin=10  opponentVotes=9
+        Neither of us should win it because both votes are less than the votes need to win
+        but the program also assumes that I win.
+
+
+Step 6: make the pctYou= 40.0 * votesReceived / votesToWin, so it is not equal to
+        the % of the votes need to win and the result will be incorrect although the 
+        input is correct. 
+
+Step 7: there are two types of compile errors in the code. 
+        First is that the variable opponentVotes is not declared, so the code will not 
+        run
+        Second is that there is only one bracket at the end, so there is not a header 
+        in the code.
